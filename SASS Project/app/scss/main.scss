@@ -1,0 +1,28 @@
+@forward "./base/index";
+@use "../scss/utils/index" as variable;
+header {
+  background: variable.$header_bg;
+  padding: 1rem;
+}
+main {
+  background: variable.$main_bg;
+  color: white;
+  padding: 1rem;
+}
+footer {
+  background: tomato;
+  padding: 14px;
+}
+
+// mixin
+@mixin paragraph_style($size, $style) {
+  text-align: $style;
+  font-size: $size;
+  margin-top: 20px;
+}
+#about p {
+  @include paragraph_style(20px, center);
+}
+#education {
+  @include paragraph_style(26px, justify);
+}

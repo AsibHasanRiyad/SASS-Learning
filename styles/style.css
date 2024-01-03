@@ -1,39 +1,32 @@
-// Browser reset style
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-// Color variable declarations
-$header_bgColor: #ffab73;
-$main_bgColor: #7aff73;
-$footer_bgColor: #ff73f8;
-
-// font size variable
-$paragraphFontSize: 24px;
-
 header {
-  background: $header_bgColor;
+  background: #ffab73;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 main {
-  background: $main_bgColor;
+  background: #7aff73;
 }
+
 footer {
-  background: $footer_bgColor;
+  background: #ff73f8;
 }
 
 #about p {
-  font-size: $paragraphFontSize;
+  font-size: 24px;
 }
 
-// nav styles
 nav ul {
   list-style: none;
 }
+
 nav ul li {
   display: inline-block;
   color: white;
@@ -41,6 +34,7 @@ nav ul li {
   padding: 10px;
   transition: 0.4s;
 }
+
 nav ul li a {
   display: inline-block;
   color: white;
@@ -48,7 +42,8 @@ nav ul li a {
   padding: 10px;
   transition: 0.4s;
 }
+
 nav ul li a:hover {
   background-color: black;
   border-radius: 4px;
-}
+}/*# sourceMappingURL=style.css.map */

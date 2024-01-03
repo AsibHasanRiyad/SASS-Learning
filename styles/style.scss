@@ -31,24 +31,53 @@ footer {
 }
 
 // nav styles
-nav ul {
-  list-style: none;
-}
-nav ul li {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  transition: 0.4s;
-}
-nav ul li a {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  transition: 0.4s;
-}
-nav ul li a:hover {
-  background-color: black;
-  border-radius: 4px;
+// nav {
+//   margin-top: 5px;
+// }
+// nav ul {
+//   list-style: none;
+// }
+// nav ul li {
+//   display: inline-block;
+//   color: white;
+//   text-decoration: none;
+//   padding: 10px;
+//   transition: 0.4s;
+// }
+// nav ul li a {
+//   display: inline-block;
+//   color: white;
+//   text-decoration: none;
+//   padding: 10px;
+//   transition: 0.4s;
+// }
+// nav ul li a:hover {
+//   background-color: black;
+//   border-radius: 4px;
+// }
+
+// sass nesting
+nav {
+  margin-top: 5px;
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      transition: 0.4s;
+      a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        transition: 0.4s;
+      }
+      a:hover {
+        background-color: black;
+        border-radius: 4px;
+      }
+    }
+  }
 }

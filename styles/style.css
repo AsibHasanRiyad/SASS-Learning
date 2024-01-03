@@ -23,10 +23,12 @@ footer {
   font-size: 24px;
 }
 
+nav {
+  margin-top: 5px;
+}
 nav ul {
   list-style: none;
 }
-
 nav ul li {
   display: inline-block;
   color: white;
@@ -34,7 +36,6 @@ nav ul li {
   padding: 10px;
   transition: 0.4s;
 }
-
 nav ul li a {
   display: inline-block;
   color: white;
@@ -42,7 +43,6 @@ nav ul li a {
   padding: 10px;
   transition: 0.4s;
 }
-
 nav ul li a:hover {
   background-color: black;
   border-radius: 4px;

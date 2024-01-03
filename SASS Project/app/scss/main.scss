@@ -26,3 +26,20 @@ footer {
 #education {
   @include paragraph_style(26px, justify);
 }
+
+// inherit
+.btn {
+  border: none;
+  padding: 16px 40px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.download-btn {
+  @extend .btn;
+  background-color: crimson;
+}
+.learn-btn {
+  @extend .btn;
+  background-color: tomato;
+}
